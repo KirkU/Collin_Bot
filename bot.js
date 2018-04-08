@@ -16,26 +16,7 @@ client.on('message', async message => {
     for (var i = 0; i < args.length; i++) {
         
         if(message.content.includes('aram') || message.content.includes('arams') || message.content.includes('league')) {
-            message.channel.send("League of Tanks, Game Never Changes!", {files: ["./assets/league_of_tanks.png"]});
-        }
-        
-        if(message.content.includes('fortnite')) {
-            message.channel.send({files: ["./assets/fortnite_sucks.jpg"]});
-        }
-        
-    }
-    
-   /* if (message.content.includes('fortnite')) {
-        message.channel.send({files: ["./assets/fortnite_sucks.jpg"]});
-    }
-    
-    if (message.content.includes('aram') || message.content.includes('arams') || message.content.includes('league')) {
-        message.channel.send("League of Tanks, Game Never Changes!", {files: ["./assets/league_of_tanks.png"]});
-    }*/
-    
-    /*
-    if (message.author.username === 'HazyArc14') {
-        message.channel.send({files: ["./assets/fortnite_sucks.jpg"]});
+            message.
     }
     */
 
